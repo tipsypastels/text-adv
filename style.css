@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Mali');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: Mali;
+  background-color: #333;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#text {
+  color: white;
+  font-size: 3em;
+  margin-bottom: 0.25em;
+}
+
+button {
+  outline: none;
+  color: black;
+  background: white;
+  
+  border: none;
+  border-bottom: 4px solid #ddd;
+  margin: 0 3px;
+
+  font-size: 1.5em;
+  font-family: Chakra Petch;
+}
+
+input[type="text"] {
+  border: none;
+  padding: 1em;
+
+  background-color: #333;
+  color: white;
+  outline: none;
+  font-family: Chakra Petch;
+}
+
+#icon {
+  font-size: 3em;
+  color: white;
+}

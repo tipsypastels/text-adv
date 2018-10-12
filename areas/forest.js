@@ -1,0 +1,1 @@
+class Forest extends Area {}

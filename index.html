@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Adventure</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <script src="game.js"></script>
+  <script src="state_manager.js"></script>
+  <script src="area.js"></script>
+  <script src="view.js"></script>
+
+  <script src="areas/start.js"></script>
+  <script src="views/start_name.js"></script>
+  <script src="views/start_ready.js"></script>
+
+  <script src="areas/forest.js"></script>
+
+  <script src="areas/farm.js"></script>
+  <script src="views/farm_house.js"></script>
+  <script src="views/farm_house_inside.js"></script>
+  <script src="views/farm_cows.js"></script>
+
+  <script>
+    $(function() {
+      let g = new Game(Start);
+    });
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="icon" class="field"></div>
+  <div id="text" class="field"></div>
+  <div id="buttons" class="field"></div>
+  <div id="input" class="field"></div>
+</body>
+</html>
