@@ -6,7 +6,7 @@ class View {
    */
 
   static icon(fa_icon) {
-    return class extends View {
+    return class extends this {
       get icon() {
         return fa_icon;
       }
